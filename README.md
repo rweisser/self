@@ -97,6 +97,6 @@ Here is a fun example:
 See `has_many.rb`
 
 Not illustrated:
-    Class vars are inherited.
-    Class instance vars are not.
+- Class vars are inherited.
+- Class instance vars are not.
 
