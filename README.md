@@ -47,7 +47,7 @@ Since they are private methods, they can not have a receiver.
 
 main has 2 singleton methods, to_s, and inspect.
 
-see `top_level.rb`
+See `top_level.rb`
 
 In irb, main has a lot of them.
 
@@ -94,7 +94,7 @@ Class methods are inherited.  When that happens, self changes.
 
 Here is a fun example:
 
-see `has_many.rb`
+See `has_many.rb`
 
 Not illustrated:
     Class vars are inherited.
