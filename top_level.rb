@@ -2,7 +2,7 @@
 
 # Top level methods
 
-# A top level method is an private instance method of Kernel.
+# A top level method is a private instance method of Kernel.
 
 def sep
   puts
@@ -15,7 +15,7 @@ kernel_methods = Kernel.private_methods
 puts 'private methods of Kernel before defining the add method:'
 puts
 puts kernel_methods.sort[0..5]
-puts '<snipped>'
+puts '<snip>'
 
 sep
 
@@ -27,7 +27,7 @@ kernel_methods = Kernel.private_methods
 puts 'private methods of Kernel after defining the add method:'
 puts
 puts kernel_methods.sort[0..5]
-puts '<snipped>'
+puts '<snip>'
 
 sep
 
@@ -85,7 +85,7 @@ attr
 attr_accessor
 attr_reader
 attr_writer
-<snipped>
+<snip>
 
 ======================================================================
 
@@ -97,7 +97,7 @@ append_features
 attr
 attr_accessor
 attr_reader
-<snipped>
+<snip>
 
 ======================================================================
 
@@ -110,7 +110,7 @@ In C#junk, 3 + 4 = 7
 ======================================================================
 
 Using add with a receiver:
-Got an error: private method `add' called for #<C:0x007fb5b41317a0>
+Got an error: private method `add' called for #<C:0x007fc902095740>
 
 ======================================================================
 
