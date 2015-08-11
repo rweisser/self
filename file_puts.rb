@@ -1,4 +1,4 @@
-# file_put.rb
+# file_puts.rb
 
 require 'fileutils'
 

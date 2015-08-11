@@ -20,6 +20,8 @@ class Junk
     puts "Changed stuff to #{new_stuff}"
     # Doesn't work:
     stuff = new_stuff
+    # I added the next line so that vim would not complain that
+    # that stuff was never used.
     stuff
   end
 end

@@ -1,4 +1,4 @@
-# class_meth_with_class.rb
+# class_meth_within_class.rb
 
 class C
   def C.meth
